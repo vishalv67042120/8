@@ -1,0 +1,40 @@
+body{
+    background-image:url("v4.jpg");
+    
+
+}
+
+h1{
+    border: 5px double rgba(231, 255, 47, 0.713);
+     box-shadow: 1px 1px 20px greenyellow;
+     text-align: center;
+     color: chocolate;
+}
+.content{
+    margin-left:50px;
+    width 420px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    width: 307.7px;
+    
+}
+.box{
+    border-style: double ;
+    color: chartreuse;
+    box-shadow: 0px 3px 3px 4px rgb(20, 210, 220);
+}
+
+.box:hover{transform: scale(1.1);
+    
+   transition: 1.5s; 
+   filter: blur(10); 
+   text-shadow: 50px; 
+   filter: drop-shadow(20px);
+
+}
+.v{
+    margin-left: 100px;
+}
+.v:hover{
+    transform: scale(1.5);}
